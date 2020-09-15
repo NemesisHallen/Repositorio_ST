@@ -65,8 +65,8 @@ void reshape (int w, int h)
    //inicia menu
    menu_opciones();  
    glLoadIdentity ();
-  // glFrustum (-1.0, 1.0, -1.0, 1.0, 1.5, 20.0);
-   //gluPerspective(30, (GLfloat)w / (GLfloat)h, 1.0, 200.0);
+  // glFrustum (-1.0, 1.0, -1.0, 1.0, 1.5, 15.0);
+   //gluPerspective(30, (GLfloat)w / (GLfloat)h, 1.0, 100.0);
    glMatrixMode (GL_MODELVIEW);
 }
 
